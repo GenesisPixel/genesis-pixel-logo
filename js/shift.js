@@ -13,7 +13,7 @@ const rangeHue = 60;
 const xOff = 0.0015;
 const yOff = 0.0015;
 const zOff = 0.0015;
-const backgroundColor = 'hsla(0,0%,5%,1)';
+const backgroundColor = 'hsla(0,0%,5%,0)';
 
 let container;
 let canvas;
