@@ -32,9 +32,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 100vw;
-	height: calc(100vh - 13rem);
+	height: 100vh;
 	position: relative;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -44,32 +44,26 @@ body {
 	left: 0;
 	width: 100%;
 	text-align: center;
-	margin-top: -80px;
+	margin-top: -200px;
 	z-index: 100;
-	font-size: 15rem;
+	font-size: 25rem;
 	color: var(--color-title);
 	line-height: 1;
 	font-family: afronaut, serif;
 	font-weight: 300;
-	letter-spacing: -3px;
+	letter-spacing: -10px;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .content__icon {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: -130px;
-	margin-left: 80px;
+	margin-top: -230px;
+	margin-left: 100px;
 }
 
-@media screen and (min-width: 53em) {
-	.content {
-		height: 100vh;
-		justify-content: center;
-	}
-}
